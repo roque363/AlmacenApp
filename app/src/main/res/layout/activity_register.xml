@@ -13,8 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:textColor="@color/negro"
         android:textSize="20sp"
-        android:text="Nombre del producto"/>
+        android:textStyle="bold"
+        android:text="@string/nombre_del_producto"/>
 
     <EditText
         android:id="@+id/nombre_input"
@@ -29,8 +31,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:textColor="@color/negro"
         android:textSize="20sp"
-        android:text="Precio del producto"/>
+        android:textStyle="bold"
+        android:text="@string/precio_del_producto"/>
 
     <EditText
         android:id="@+id/precio_input"
@@ -45,8 +49,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:textColor="@color/negro"
         android:textSize="20sp"
-        android:text="Detalles del producto"/>
+        android:textStyle="bold"
+        android:text="@string/detalles_del_producto"/>
 
     <EditText
         android:id="@+id/detalles_input"
@@ -67,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:drawableStart="@android:drawable/ic_menu_camera"
-            android:text="Tomar Foto"
+            android:text="@string/tomar_foto"
             android:onClick="takePicture"/>
 
         <ImageView
@@ -75,14 +81,14 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentEnd="true"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@drawable/ic_image"/>
 
     </RelativeLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registrar"
+        android:text="@string/registrar"
         style="@style/Widget.AppCompat.Button.Colored"
         android:onClick="callRegister"/>
 

@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AlmacenApp</string>
+    <string name="app_name">Almacen App</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="precio_del_producto">Precio del producto</string>
+    <string name="detalles_del_producto">Detalles del producto</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="registrar">Registrar</string>
 </resources>

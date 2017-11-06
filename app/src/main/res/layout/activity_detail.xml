@@ -37,6 +37,7 @@
                 android:padding="16dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                android:textColor="@color/negro"
                 tools:text="Nombre del Producto" />
 
             <TextView
